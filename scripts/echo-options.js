@@ -1,0 +1,21 @@
+const colors = require('colors');
+
+console.log('');
+console.log('///////////////'.yellow);
+console.log('// IMPORTANT //'.yellow);
+console.log('///////////////'.yellow);
+console.log('');
+console.log('Please confirm your "options" file is properly configured. ');
+console.log('The simplest version that will work for a local install without');
+console.log('support for built-in DNS or message-archiving is: ');
+console.log('');
+console.log('{'.bold);
+console.log('  "server":{"host":"localhost","port":12101,"publickey":""}'.bold);
+console.log('}'.bold);
+console.log('');
+console.log('');
+console.log('once that is done, you can start Saito by running: ');
+console.log('');
+console.log('$> node start.js'.bold);
+console.log('');
+console.log('');
