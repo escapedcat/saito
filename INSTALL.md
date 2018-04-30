@@ -39,9 +39,8 @@ make install
 
 
 
-## Step 2 - required NodeJS
+## Step 2 - Install dependencies
 
-Install required NodeJS dependencies:
 ```
 npm install
 ```
@@ -60,7 +59,11 @@ cd lib/
 ```
 
 And run our `compile` script to refresh the software to a clean state
-for the first time it will run. Then:
+for the first time it will run:
+```
+./compile
+```
+Then:
 ```
 node start.js
 ```
